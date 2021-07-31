@@ -65,4 +65,4 @@ def upload_file():
 
     carDesc = vehInfo["CarMake"]["CurrentTextValue"]
     carModel = vehInfo["CarModel"]["CurrentTextValue"]
-    return render_template("/details.html", carDesc=carDesc, carModel=carModel, vehInfo=vehInfo)
+    return render_template("details.html", carDesc=carDesc, carModel=carModel, vehInfo=vehInfo)
